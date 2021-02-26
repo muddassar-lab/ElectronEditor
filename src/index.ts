@@ -15,6 +15,6 @@ app.on("ready", () => {
     .then(() => {
       // IMPLEMENT FANCY STUFF HERE
     })
-    .catch((e) => console.error(e));
+    .catch((er) => console.error(er));
   win.removeMenu();
 });
